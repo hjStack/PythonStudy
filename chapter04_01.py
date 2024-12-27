@@ -111,3 +111,45 @@ if id1=='vip' or id2=='admin':
 if id2=='admin' and grade=='platinum':
    print('최상위 관리자')
 
+
+# 예제6
+
+num=50
+
+if num >=90:
+   print('Grade: A')
+
+elif num >= 80:
+    print('Grade: B')
+    
+elif num >= 70:
+    print('Grade: C')
+    
+else:
+   print('Grade: FAIL')  
+   
+# 예제7 - 중첩 조건문 
+   
+grade='A'
+total=88
+
+if grade == 'A':
+   if total >= 90:
+      print('장학금 100%')
+   elif total >=80:
+      print('장학금 80%')
+   else:
+      print('장학금 50%')
+
+else:
+   print('장학금 없음 ')
+
+# in, not in
+a=[10,20,30]
+w={70,80,90}
+e={"name" : "LEE", "CITY" : "SEOUL", "GRADE " : "A"}
+r=(10,12,14)
+
+print("name" in e)
+print("SEOUL" in e.values()) # 딕셔너리에서 값을 가져옴
+
