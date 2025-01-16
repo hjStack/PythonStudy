@@ -42,7 +42,6 @@ multi_str=\
 print(multi_str)
 
 # 문자열 연산 
-
 str_o1='python'
 str_o2='apple'
 str_o3='How are you doing ?'
@@ -50,7 +49,6 @@ str_o4='Seoul Daejeon Busan Jinju'
 
 print(str_o1*3)
 print(str_o1+str_o2)
-
 
 # str : 문자열(시퀀스)
 # list : 리스트(시퀀스)
@@ -94,5 +92,5 @@ print(str_s1[::-2]) # 처음부터 끝까지 가져오는데 역순으로 가져
 # 아스키 코드 (또는 유니코드)
 
 a='z'
-print(ord(a)) # 아스키코드로 
-print(chr(122))
+print(ord(a)) # 문자 -> 아스키코드
+print(chr(122)) # 아스키코드 -> 문자
